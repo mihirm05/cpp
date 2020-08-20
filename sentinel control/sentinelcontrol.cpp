@@ -22,6 +22,7 @@ class Sentinel{
             cin>>age;
             
         }
+        
         cout<<"Number of people entered: "<<numberOfPeople<<endl;
         cout<<"Average age: "<<float(ageTotal)/float(numberOfPeople)<<endl;
         }
