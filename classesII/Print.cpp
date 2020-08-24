@@ -4,8 +4,9 @@
 
 using namespace std; 
 
-void Print::write(){
-    cout<<"Hello World!"<<endl;
+void Print::write(string s){
+    cout<<"The entered string is: "<<endl;
+    cout<<s<<endl;
 }
 
 
