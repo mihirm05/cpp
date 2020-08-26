@@ -1,5 +1,5 @@
-#ifndef PARENT_H
-#define PARENT_H 
+#ifndef BASE_H
+#define BASE_H 
 
 class Base
 {
@@ -8,4 +8,4 @@ class Base
     void print();
 };
 
-#endif //PARENT_H 
+#endif //BASE_H 
