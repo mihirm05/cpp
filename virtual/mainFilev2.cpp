@@ -3,13 +3,14 @@
 
 using namespace std;
 
-// in this version of the file, power() is a virtual function having no
-// implementation. 2 derived classes implement power() as per their needs
+// in this version of the file, power() is a "pure" virtual function having no
+// implementation in the base class whatsoever. 2 derived class implement power() as per their needs.
+
 
 class Engine{
     // every object of the derived class will have its own implementation of function
     public:
-    virtual void power(){}
+    virtual void power() = 0;
 };
 
 class Car: public Engine{

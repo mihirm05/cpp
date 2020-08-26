@@ -3,13 +3,16 @@
 
 using namespace std;
 
-// in this version of the file, power() is a virtual function having no
-// implementation. 2 derived classes implement power() as per their needs
+// in this version of the file, power() is a virtual function having an
+// implementation. Car implements power() as per its needs but Truck does not 
+// and inherits the implementation of power() as it is in Engine. Hence the output
 
 class Engine{
     // every object of the derived class will have its own implementation of function
     public:
-    virtual void power(){}
+    virtual void power(){
+        cout<<"This is a virtual function"<<endl;
+    }
 };
 
 class Car: public Engine{
@@ -21,10 +24,10 @@ class Car: public Engine{
 };
 
 class Truck: public Engine{ 
-    public:
-    void power(){
-        cout<<"This is truck"<<endl;
-    }
+ //   public:
+ //   void power(){
+ //       cout<<"This is truck"<<endl;
+ //   }
     
 };
 
