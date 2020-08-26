@@ -15,10 +15,6 @@ Overload::Overload(int a){
 }
 
 // the function "operator+" has a return type of "Overload"
-// The operator+ function is the same as "add +(2,2)" 
-// which is the same as "2+2", except "operator+" is having 
-// one value passed to it and is taking another from another 
-// function (num=a in Overload::Overload (int a))
 Overload Overload::operator+(Overload o){
     
     Overload newOverload;
