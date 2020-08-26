@@ -22,6 +22,9 @@ Overload Overload::operator+(Overload o){
     // in this context "num" belongs to o1
     // "o.num" belongs to o2 
     // newOverload is stored in o3 
+    
+    cout<<"num: "<<num<<endl;
+    cout<<"o.num: "<<o.num<<endl;
     newOverload.num = num + o.num;
     return(newOverload);
 }
