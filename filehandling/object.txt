@@ -1,0 +1,8 @@
+chair 0
+ninja -50
+fruit 10
+shoe 0
+pencil 0
+candy 50 
+pit -20 
+mud -30
